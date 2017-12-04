@@ -14,6 +14,8 @@ The code is tested on a Windows 10 Anaconda python3.5 distribution, using tensor
 3. modify Class CONFIG in nst_utils to enter your parameters
 4. copy the instructions in main.py to your IPython console
 5. The output is in output dir
+6. download imagenet-vgg-verydeep-19.mat from the web and store in a directory ./pretrained-model
+
 
 On a laptop equipped wiht NVIDIA GTX960M (2GB RAM) it takes 90" to train.
 There is no error checking, make sure your images are at least as large as
