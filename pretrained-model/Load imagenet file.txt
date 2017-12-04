@@ -1,3 +1,5 @@
 Load imagenet-vgg-verydeep-19.mat from the web into this directory.
+http://www.vlfeat.org/matconvnet/models/imagenet-vgg-verydeep-19.mat
+
 Altneratively you can try to install keras and load the model with keras
 keras.applications.vgg19.VGG19(include_top=True, weights='imagenet', input_tensor=None, input_shape=None, pooling=None, classes=1000)
